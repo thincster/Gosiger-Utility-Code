@@ -1,0 +1,150 @@
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\NLog.config
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Okuma Monitor Tools.exe.config
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Okuma Monitor Tools.exe
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Okuma Monitor Tools.pdb
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\ActiproSoftware.Shared.Wpf.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\ActiproSoftware.Wizard.Wpf.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Caliburn.Micro.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Caliburn.Micro.Platform.Core.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Caliburn.Micro.Platform.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Microsoft.Threading.Tasks.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Nett.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Newtonsoft.Json.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\NLog.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Okuma.Scout.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\System.Windows.Interactivity.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Westwind.Utilities.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\ActiproSoftware.Shared.Wpf.xml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\ActiproSoftware.Wizard.Wpf.xml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Caliburn.Micro.xml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Caliburn.Micro.Platform.xml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Caliburn.Micro.Platform.Core.xml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Microsoft.Threading.Tasks.xml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Nett.xml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Newtonsoft.Json.xml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\NLog.xml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Telerik.Windows.Controls.xml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Telerik.Windows.Controls.Navigation.xml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Telerik.Windows.Data.xml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Westwind.Utilities.xml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\de\Telerik.Windows.Controls.resources.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\es\Telerik.Windows.Controls.resources.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\fr\Telerik.Windows.Controls.resources.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\it\Telerik.Windows.Controls.resources.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\nl\Telerik.Windows.Controls.resources.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\tr\Telerik.Windows.Controls.resources.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\obj\Debug\Views\ShellView.g.cs
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\obj\Debug\Views\WizardView.g.cs
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\obj\Debug\App.g.cs
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\obj\Debug\Okuma Monitor Tools_Content.g.cs
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\obj\Debug\Okuma Monitor Tools_MarkupCompile.cache
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\obj\Debug\Okuma Monitor Tools_MarkupCompile.lref
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\obj\Debug\App.baml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\obj\Debug\Views\ShellView.baml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\obj\Debug\Views\WizardView.baml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\obj\Debug\Okuma Monitor Tools.g.resources
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\obj\Debug\Okuma_Monitor_Tools.Properties.Resources.resources
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\obj\Debug\Okuma Monitor Tools.csproj.GenerateResource.cache
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\obj\Debug\Okuma Monitor Tools.exe.licenses
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\obj\Debug\Okuma Monitor Tools.csproj.CoreCompileInputs.cache
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\obj\Debug\Okuma Monitor Tools.csproj.CopyComplete
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\obj\Debug\Okuma Monitor Tools.exe
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\obj\Debug\Okuma Monitor Tools.pdb
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\obj\Debug\Okuma Monitor Tools.csprojAssemblyReference.cache
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\S7.Net.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\S7.Net.xml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Okuma.CGCMDAPI.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Okuma.CGDATAPI.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Okuma.CLCMDAPI.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Okuma.CLDATAPI.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Okuma.CMCMDAPI.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Okuma.CMDATAPI.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Okuma.CGCMDAPI.xml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Okuma.CGDATAPI.xml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Okuma.CLCMDAPI.xml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Okuma.CLDATAPI.xml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Okuma.CMCMDAPI.xml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Okuma.CMDATAPI.xml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Caliburn.Micro.Logging.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Caliburn.Micro.Logging.pdb
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\obj\Debug\Okuma Monitor Tools.csprojAssemblyReference.cache
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\obj\Debug\Views\ShellView.g.cs
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\obj\Debug\Views\WizardView.g.cs
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\obj\Debug\App.g.cs
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\obj\Debug\Okuma Monitor Tools_Content.g.cs
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\obj\Debug\Okuma Monitor Tools_MarkupCompile.cache
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\obj\Debug\Okuma Monitor Tools_MarkupCompile.lref
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\obj\Debug\Okuma Monitor Tools.exe
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\obj\Debug\Okuma Monitor Tools.pdb
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\NLog.config
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Okuma Monitor Tools.exe.config
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Okuma Monitor Tools.exe
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Okuma Monitor Tools.pdb
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\ActiproSoftware.Shared.Wpf.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\ActiproSoftware.Wizard.Wpf.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Caliburn.Micro.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Caliburn.Micro.Logging.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Caliburn.Micro.Platform.Core.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Caliburn.Micro.Platform.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Microsoft.Threading.Tasks.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Nett.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Newtonsoft.Json.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\NLog.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Okuma.CGCMDAPI.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Okuma.CGDATAPI.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Okuma.CLCMDAPI.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Okuma.CLDATAPI.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Okuma.CMCMDAPI.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Okuma.CMDATAPI.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Okuma.Scout.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\S7.Net.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\System.Windows.Interactivity.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\UtilityCode.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Westwind.Utilities.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\ActiproSoftware.Shared.Wpf.xml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\ActiproSoftware.Wizard.Wpf.xml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Caliburn.Micro.xml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Caliburn.Micro.Logging.pdb
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Caliburn.Micro.Platform.xml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Caliburn.Micro.Platform.Core.xml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Microsoft.Threading.Tasks.xml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Nett.xml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Newtonsoft.Json.xml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\NLog.xml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Okuma.CGCMDAPI.xml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Okuma.CGDATAPI.xml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Okuma.CLCMDAPI.xml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Okuma.CLDATAPI.xml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Okuma.CMCMDAPI.xml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Okuma.CMDATAPI.xml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\S7.Net.xml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Telerik.Windows.Controls.xml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Telerik.Windows.Controls.Navigation.xml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Telerik.Windows.Data.xml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\UtilityCode.pdb
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Westwind.Utilities.xml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\de\Telerik.Windows.Controls.resources.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\es\Telerik.Windows.Controls.resources.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\fr\Telerik.Windows.Controls.resources.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\it\Telerik.Windows.Controls.resources.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\nl\Telerik.Windows.Controls.resources.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\tr\Telerik.Windows.Controls.resources.dll
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\obj\Debug\App.baml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\obj\Debug\Views\ShellView.baml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\obj\Debug\Views\WizardView.baml
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\obj\Debug\Okuma Monitor Tools.g.resources
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\obj\Debug\Okuma_Monitor_Tools.Properties.Resources.resources
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\obj\Debug\Okuma Monitor Tools.csproj.GenerateResource.cache
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\obj\Debug\Okuma Monitor Tools.exe.licenses
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\obj\Debug\Okuma Monitor Tools.csproj.CoreCompileInputs.cache
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\obj\Debug\Okuma Monitor Tools.csproj.CopyComplete

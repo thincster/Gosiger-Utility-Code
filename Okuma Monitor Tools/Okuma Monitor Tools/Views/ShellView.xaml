@@ -1,0 +1,28 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Okuma_Monitor_Tools.Views"
+       
+        xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation" x:Class="Okuma_Monitor_Tools.Views.ShellView"
+       
+        mc:Ignorable="d" WindowStartupLocation="CenterScreen" FontSize="18"
+        Title="ShellView" Height="450" Width="800">
+    <Grid>
+        <telerik:RadTabControl HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <telerik:RadTabItem x:Name="RadTabItem1" Header="Tab item 1">
+                <Grid Background="Transparent"/>
+            </telerik:RadTabItem>
+            <telerik:RadTabItem x:Name="RadTabItem2" Header="Tab item 2">
+                <Grid Background="Transparent"/>
+            </telerik:RadTabItem>
+            <telerik:RadTabItem x:Name="RadTabItem3" Header="Tab item 3">
+                <Grid Background="Transparent"/>
+            </telerik:RadTabItem>
+        </telerik:RadTabControl>
+
+
+
+    </Grid>
+</Window>

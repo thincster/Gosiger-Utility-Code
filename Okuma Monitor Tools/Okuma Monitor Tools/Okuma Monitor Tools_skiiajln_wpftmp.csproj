@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B630E56C-B993-4BA0-9AE1-A4F46CF06692}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Okuma_Monitor_Tools</RootNamespace>
+    <AssemblyName>Okuma Monitor Tools</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Caliburn\Micro\Logging\DebugLogger.cs" />
+    <Compile Include="Config\ApplicationSettings.cs" />
+    <Compile Include="Config\TomlFileConfigurationProvider.cs" />
+    <Compile Include="Domain\IShell.cs" />
+    <Compile Include="Enums\Enumerations.cs" />
+    <Compile Include="EventAggregationProvider.cs" />
+    <Compile Include="Okuma\APIUtilities.cs" />
+    <Compile Include="Okuma\OkumaGeneric\OkumaLatheGeneric.cs" />
+    <Compile Include="Okuma\OkumaGeneric\OkumaMillGeneric.cs" />
+    <Compile Include="Okuma\OkumaGeneric\IOkuma.cs" />
+    <Compile Include="Okuma\OkumaGeneric\OkumaSimGeneric.cs" />
+    <Compile Include="Okuma\IScannable.cs" />
+    <Compile Include="Okuma\OkMachine.cs" />
+    <Compile Include="Okuma\OkumaAPIFactory.cs" />
+    <Compile Include="Okuma\OkumaEvents\OkumaIOChangedEvent.cs" />
+    <Compile Include="Okuma\OkumaEvents\OkumaScanningExceptionEvent.cs" />
+    <Compile Include="Okuma\OkumaEvents\VariableChangedEvent.cs" />
+    <Compile Include="Okuma\OkumaIOPoint.cs" />
+    <Compile Include="Okuma\OkumaLathe\OkumaLathe.cs" />
+    <Compile Include="Okuma\OkumaLathe\IOkumaLathe.cs" />
+    <Compile Include="Okuma\OkumaMill\OkumaMill.cs" />
+    <Compile Include="Okuma\OkumaMill\IOkumaMill.cs" />
+    <Compile Include="Okuma\OkumaMill\OkumaMillSim.cs" />
+    <Compile Include="Okuma\OkumaScanner.cs" />
+    <Compile Include="Okuma\OkumaLathe\OkumaLatheSim.cs" />
+    <Compile Include="Okuma\OkumaVariable.cs" />
+    <Compile Include="Okuma\ScannableBase.cs" />
+    <Compile Include="PLC\FromPLC.cs" />
+    <Compile Include="PLC\IPLC.cs" />
+    <Compile Include="PLC\PLCEvents\PLCError.cs" />
+    <Compile Include="PLC\S7Net.cs" />
+    <Compile Include="PLC\ToPLC.cs" />
+    <Compile Include="Services\TimerService.cs" />
+    <Compile Include="Testing\ITestAPI.cs" />
+    <Compile Include="Testing\ITestLathe.cs" />
+    <Compile Include="Testing\ITestMill.cs" />
+    <Compile Include="Testing\TestAPI.cs" />
+    <Compile Include="Testing\TestAPIFactory.cs" />
+    <Compile Include="Testing\TestAPILathe.cs" />
+    <Compile Include="Testing\TestAPISim.cs" />
+    <Compile Include="Testing\TestLathe.cs" />
+    <Compile Include="Testing\TestMill.cs" />
+    <Compile Include="Utilities\AlarmHelpEdit.cs" />
+    <Compile Include="Utilities\Extensions.cs" />
+    <Compile Include="Utilities\SingleInstance.cs" />
+    <Compile Include="Utilities\UIValidation.cs" />
+    <Compile Include="ViewModels\ShellViewModel.cs" />
+    <Compile Include="ViewModels\WizardViewModel.cs" />
+    <Compile Include="Views\ShellView.xaml.cs">
+      <DependentUpon>ShellView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Bootstrapper.cs" />
+    <Compile Include="Views\WizardView.xaml.cs">
+      <DependentUpon>WizardView.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Content Include="NLog.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="NLog.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\Events\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" />
+  <Target Name="EnsureBclBuildImported" BeforeTargets="BeforeBuild" Condition="'$(BclBuildImported)' == ''">
+    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=317567." HelpKeyword="BCLBUILD2001" />
+    <Error Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="The build restored NuGet packages. Build the project again to include these packages in the build. For more information, see http://go.microsoft.com/fwlink/?LinkID=317568." HelpKeyword="BCLBUILD2002" />
+  </Target>
+  <ItemGroup>
+    <ReferencePath Include="C:\Program Files (x86)\Actipro Software\WPF-Controls\v19.1.0684\Assemblies\ActiproSoftware.Shared.Wpf.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Actipro Software\WPF-Controls\v19.1.0684\Assemblies\ActiproSoftware.Wizard.Wpf.dll" />
+    <ReferencePath Include="D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\packages\Caliburn.Micro.Core.3.2.0\lib\net45\Caliburn.Micro.dll" />
+    <ReferencePath Include="D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\packages\Caliburn.Micro.Logging.2.0.3.0\lib\portable-net45+win+wpa81+wp80\Caliburn.Micro.Logging.dll" />
+    <ReferencePath Include="D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\packages\Caliburn.Micro.3.2.0\lib\net45\Caliburn.Micro.Platform.Core.dll" />
+    <ReferencePath Include="D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\packages\Caliburn.Micro.3.2.0\lib\net45\Caliburn.Micro.Platform.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Microsoft.CSharp.dll" />
+    <ReferencePath Include="D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.dll" />
+    <ReferencePath Include="D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.Extensions.Desktop.dll" />
+    <ReferencePath Include="D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.Extensions.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\mscorlib.dll" />
+    <ReferencePath Include="D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\packages\Nett.0.15.0\lib\net40\Nett.dll" />
+    <ReferencePath Include="D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll" />
+    <ReferencePath Include="D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\packages\NLog.4.7.0\lib\net45\NLog.dll" />
+    <ReferencePath Include="D:\Dropbox\Software\Any Machine Version APIs\API v1.22\Release 1.22.0.0\DiskImages\DISK1\program files\Okuma\THINC API\Bin\Okuma.CGCMDAPI.dll" />
+    <ReferencePath Include="D:\Dropbox\Software\Any Machine Version APIs\API v1.22\Release 1.22.0.0\DiskImages\DISK1\program files\Okuma\THINC API\Bin\Okuma.CGDATAPI.dll" />
+    <ReferencePath Include="D:\Dropbox\Software\Any Machine Version APIs\API v1.22\Release 1.22.0.0\DiskImages\DISK1\program files\Okuma\THINC API\Bin\Okuma.CLCMDAPI.dll" />
+    <ReferencePath Include="D:\Dropbox\Software\Any Machine Version APIs\API v1.22\Release 1.22.0.0\DiskImages\DISK1\program files\Okuma\THINC API\Bin\Okuma.CLDATAPI.dll" />
+    <ReferencePath Include="D:\Dropbox\Software\Any Machine Version APIs\API v1.22\Release 1.22.0.0\DiskImages\DISK1\program files\Okuma\THINC API\Bin\Okuma.CMCMDAPI.dll" />
+    <ReferencePath Include="D:\Dropbox\Software\Any Machine Version APIs\API v1.22\Release 1.22.0.0\DiskImages\DISK1\program files\Okuma\THINC API\Bin\Okuma.CMDATAPI.dll" />
+    <ReferencePath Include="D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\packages\Okuma.Scout.4.12.0\lib\net40\Okuma.Scout.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\PresentationCore.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\PresentationFramework.dll" />
+    <ReferencePath Include="D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\packages\S7netplus.0.1.9\lib\net45\S7.Net.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\System.ComponentModel.DataAnnotations.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\System.Configuration.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\System.Core.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\System.Data.DataSetExtensions.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\System.Data.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\System.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\System.Drawing.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\System.IO.Compression.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\System.Net.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\System.Net.Http.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\System.Runtime.Serialization.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\System.Security.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\System.ServiceModel.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\System.Transactions.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\System.Web.dll" />
+    <ReferencePath Include="D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\packages\Caliburn.Micro.3.2.0\lib\net45\System.Windows.Interactivity.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\System.Xaml.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\System.Xml.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\System.Xml.Linq.dll" />
+    <ReferencePath Include="D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Telerik.Windows.Controls.dll" />
+    <ReferencePath Include="D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Telerik.Windows.Controls.Navigation.dll" />
+    <ReferencePath Include="D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\bin\Debug\Telerik.Windows.Data.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\UIAutomationProvider.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\UIAutomationTypes.dll" />
+    <ReferencePath Include="D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\UtilityCode\bin\Debug\UtilityCode.dll" />
+    <ReferencePath Include="D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\packages\Westwind.Utilities.3.0.37\lib\net46\Westwind.Utilities.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\WindowsBase.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.Collections.Concurrent.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.Collections.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.ComponentModel.Annotations.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.ComponentModel.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.ComponentModel.EventBasedAsync.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.Diagnostics.Contracts.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.Diagnostics.Debug.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.Diagnostics.Tools.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.Diagnostics.Tracing.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.Dynamic.Runtime.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.Globalization.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.IO.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.Linq.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.Linq.Expressions.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.Linq.Parallel.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.Linq.Queryable.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.Net.NetworkInformation.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.Net.Primitives.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.Net.Requests.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.Net.WebHeaderCollection.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.ObjectModel.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.Reflection.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.Reflection.Emit.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.Reflection.Emit.ILGeneration.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.Reflection.Emit.Lightweight.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.Reflection.Extensions.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.Reflection.Primitives.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.Resources.ResourceManager.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.Runtime.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.Runtime.Extensions.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.Runtime.Handles.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.Runtime.InteropServices.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.Runtime.InteropServices.WindowsRuntime.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.Runtime.Numerics.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.Runtime.Serialization.Json.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.Runtime.Serialization.Primitives.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.Runtime.Serialization.Xml.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.Security.Principal.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.ServiceModel.Duplex.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.ServiceModel.Http.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.ServiceModel.NetTcp.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.ServiceModel.Primitives.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.ServiceModel.Security.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.Text.Encoding.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.Text.Encoding.Extensions.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.Text.RegularExpressions.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.Threading.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.Threading.Tasks.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.Threading.Tasks.Parallel.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.Threading.Timer.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.Xml.ReaderWriter.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.Xml.XDocument.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\Facades\System.Xml.XmlSerializer.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\obj\Debug\Views\ShellView.g.cs" />
+    <Compile Include="D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\obj\Debug\Views\WizardView.g.cs" />
+    <Compile Include="D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\obj\Debug\App.g.cs" />
+    <Compile Include="D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\obj\Debug\Okuma Monitor Tools_Content.g.cs" />
+    <Compile Include="D:\Dropbox\2020 Projects\Okuma IO Monitor Code\UtilityCode\Okuma Monitor Tools\Okuma Monitor Tools\obj\Debug\GeneratedInternalTypeHelper.g.cs" />
+  </ItemGroup>
+</Project>

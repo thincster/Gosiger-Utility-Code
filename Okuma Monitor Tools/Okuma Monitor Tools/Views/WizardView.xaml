@@ -1,0 +1,179 @@
+<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:shared="http://schemas.actiprosoftware.com/winfx/xaml/shared"
+	xmlns:wizard="http://schemas.actiprosoftware.com/winfx/xaml/wizard"
+    
+    xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+    
+    xmlns:utilities="clr-namespace:Okuma_Monitor_Tools.Utilities"
+    x:Name="Okuma_Monitoring_Tools" x:Class="Okuma_Monitor_Tools.Views.WizardView"
+	FontSize="18"
+	Width="900" MinHeight="450" SizeToContent="Height" ResizeMode="CanResize" Title="Okuma Monitoring Tools" WindowStartupLocation="CenterScreen"
+	>
+
+    <wizard:Wizard x:Name="wizard" WindowTitleBehavior="PageTitle" WindowTitleBaseText="Okuma Monitoring Tools Wizard" 
+                   PageSequenceType="Stack" HelpButtonVisible="False"
+                   FinishButtonEnabled="{Binding WizardFinish}">
+        <wizard:Wizard.TransitionSelector>
+            <shared:MultiTransitionSelector/>
+        </wizard:Wizard.TransitionSelector>
+
+        <wizard:WizardPage x:Name="welcomePage" PageType="Exterior"
+				Caption="Welcome to the Okuma Monitoring Tools Wizard"
+				Description="This Wizard will guide you through this applications setup." Margin="0,0,0,2.4" HeaderImageMargin="18" HeaderImage="HatLogo.png" HelpButtonVisible="False" >
+            <wizard:WizardPage.HeaderBackground>
+                <ImageBrush ImageSource="WelcomeBG.png"/>
+            </wizard:WizardPage.HeaderBackground>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <TextBlock Grid.Row="1" TextWrapping="Wrap"><Run Text="To continue, click Next."/></TextBlock>
+            </Grid>
+        </wizard:WizardPage>
+
+        <wizard:WizardPage x:Name="interiorPage1" 
+				Caption="Application Settings"
+				Description="Set Application level settings." 
+				Title="Network Settings" Height="446" >
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid  IsHitTestVisible="{Binding SettingsGrid, Mode=OneWay}" Grid.Row="0" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Column="0" Grid.Row="0" TextWrapping="Wrap"><Run Text="Add Applications Settings here."/></TextBlock>
+                    <TextBlock Grid.Column="1"  Grid.Row="1"><Run Text="Last 4 Digits of the Machine Serial Number"/></TextBlock>
+                    <TextBox x:Name="OkumaNo" Validation.ErrorTemplate="{StaticResource errorTemplate}"   Grid.Column="2" Grid.Row="1" Margin="5,0,0,0" Width="50" HorizontalAlignment="Left" MaxLength="4">
+                        <TextBox.Text>
+                            <Binding Path="OkumaNo"  ValidatesOnDataErrors="True" UpdateSourceTrigger="PropertyChanged">
+                                <Binding.ValidationRules>
+                                    <utilities:MinimumNumberRule MinimumNumbers="4" />
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
+                    <TextBlock Margin="0,3,0,0" Grid.Column="1" Grid.Row="2"><Run Text="Last 4 Digits of the PLC Serial Number"/></TextBlock>
+                    <TextBox x:Name="PlcNo" Validation.ErrorTemplate="{StaticResource errorTemplate}"   Grid.Column="2" Grid.Row="2" Margin="5,5,0,0" Width="50" HorizontalAlignment="Left"  MaxLength="4" IsEnabled="{Binding IsChecked, ElementName=PlcCheckbox}">
+                        <TextBox.Text>
+                            <Binding Path="PlcNo"  ValidatesOnDataErrors="True" UpdateSourceTrigger="PropertyChanged">
+                                <Binding.ValidationRules>
+                                    <utilities:MinimumNumberRule MinimumNumbers="4" />
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
+                    <StackPanel Orientation="Vertical" Grid.Column="1" Grid.Row="3">
+                        <TextBlock Margin="0,5,0,0">Network Connection Required</TextBlock>
+                        <TextBlock x:Name="textBlock" >PLC Required</TextBlock>
+                    </StackPanel>
+                    <StackPanel Orientation="Vertical" Margin="5,3,0,0" Grid.Column="2" Grid.Row="3">
+                        <CheckBox x:Name="NetworkCheckbox" Margin="0,5,0,0"  MinWidth="25" VerticalAlignment="Center" VerticalContentAlignment="Center" Content="Yes"/>
+                        <CheckBox x:Name="PlcCheckbox" Margin="0,2,0,0"  MinWidth="25" VerticalAlignment="Center" VerticalContentAlignment="Center" Content="Yes" IsEnabled="{Binding IsChecked, ElementName=NetworkCheckbox}"/>
+                    </StackPanel>
+                    <TextBlock Grid.Column="1" Grid.Row="4" VerticalAlignment="Center"><Run Text="IP SubNet"/></TextBlock>
+                    <StackPanel Margin="5,10,0,0" Orientation="Horizontal" Grid.Row="4" Grid.Column="2">
+                        <telerik:RadWatermarkTextBox x:Name="FirstOctet" Validation.ErrorTemplate="{StaticResource errorTemplate}" Height="25" MinWidth="40" WatermarkContent="000" IsEnabled="{Binding IsChecked, ElementName=NetworkCheckbox}"
+                                                 MaxLength="3" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Center" Padding="5,0,5,2" >
+                            <telerik:RadWatermarkTextBox.Text>
+                                <Binding Path="FirstOctet"  ValidatesOnDataErrors="True" UpdateSourceTrigger="PropertyChanged">
+                                    <Binding.ValidationRules>
+                                        <utilities:CheckIPOctetsRule />
+                                    </Binding.ValidationRules>
+                                </Binding>
+                            </telerik:RadWatermarkTextBox.Text>
+                        </telerik:RadWatermarkTextBox>
+                        <Label Content="."/>
+                        <telerik:RadWatermarkTextBox x:Name="SecondOctet" Validation.ErrorTemplate="{StaticResource errorTemplate}" Height="25" MinWidth="40" WatermarkContent="000" IsEnabled="{Binding IsChecked, ElementName=NetworkCheckbox}" 
+                                                 MaxLength="3" Padding="5,0,5,2">
+                            <telerik:RadWatermarkTextBox.Text>
+                                <Binding Path="SecondOctet"  ValidatesOnDataErrors="True" UpdateSourceTrigger="PropertyChanged">
+                                    <Binding.ValidationRules>
+                                        <utilities:CheckIPOctetsRule />
+                                    </Binding.ValidationRules>
+                                </Binding>
+                            </telerik:RadWatermarkTextBox.Text>
+                        </telerik:RadWatermarkTextBox>
+                        <Label Content="."/>
+                        <telerik:RadWatermarkTextBox x:Name="ThirdOctet" Validation.ErrorTemplate="{StaticResource errorTemplate}" WatermarkContent="000"  Height="25" MinWidth="40" IsEnabled="{Binding IsChecked, ElementName=NetworkCheckbox}"
+                                                 MaxLength="3" Padding="5,0,5,2">
+                            <telerik:RadWatermarkTextBox.Text>
+                                <Binding Path="ThirdOctet"  ValidatesOnDataErrors="True" UpdateSourceTrigger="PropertyChanged">
+                                    <Binding.ValidationRules>
+                                        <utilities:CheckIPOctetsRule />
+                                    </Binding.ValidationRules>
+                                </Binding>
+                            </telerik:RadWatermarkTextBox.Text>
+                        </telerik:RadWatermarkTextBox>
+                        <Label Content="."/>
+                        <telerik:RadWatermarkTextBox Height="25" MinWidth="25" IsReadOnly="True" Background="#FFABADB3" Text="***"/>
+                    </StackPanel>
+                    <TextBlock Grid.Column="1" Grid.Row="5" VerticalAlignment="Center"><Run Text="Okuma Com Number"/></TextBlock>
+                    <StackPanel Margin="5,10,0,0" Orientation="Horizontal" Grid.Row="5" Grid.Column="2">
+                        <telerik:RadWatermarkTextBox IsReadOnly="True"   Height="25" MinWidth="40" Text="{Binding Text, ElementName=FirstOctet}"  WatermarkContent="000" Padding="5,0,5,2" />
+                        <Label Content="."/>
+                        <telerik:RadWatermarkTextBox IsReadOnly="True"    Height="25" MinWidth="40" Text="{Binding Text, ElementName=SecondOctet}"  WatermarkContent="000" Margin="0,0,0,4.6" VerticalAlignment="Bottom" Padding="5,0,5,2"/>
+                        <Label Content="."/>
+                        <telerik:RadWatermarkTextBox IsReadOnly="True"     Height="25" MinWidth="40" Text="{Binding Text, ElementName=ThirdOctet}" WatermarkContent="000" Padding="5,0,5,2"/>
+                        <Label Content="."/>
+                        <telerik:RadWatermarkTextBox x:Name="OkumaCom1" Height="25" MinWidth="40" Validation.ErrorTemplate="{StaticResource errorTemplate}"
+                                                 IsEnabled="{Binding IsChecked, ElementName=NetworkCheckbox}" MaxLength="3" Padding="5,0,5,2" >
+                            <telerik:RadWatermarkTextBox.Text>
+                                <Binding Path="OkumaCom1"  ValidatesOnDataErrors="True" UpdateSourceTrigger="PropertyChanged">
+                                    <Binding.ValidationRules>
+                                        <utilities:CheckIPOctetsRule />
+                                    </Binding.ValidationRules>
+                                </Binding>
+                            </telerik:RadWatermarkTextBox.Text>
+                        </telerik:RadWatermarkTextBox>
+                    </StackPanel>
+                    <TextBlock Grid.Column="1" Grid.Row="6" VerticalAlignment="Center"><Run Text="PLC Com Number"/></TextBlock>
+                    <StackPanel Margin="5,10,0,0" Orientation="Horizontal" Grid.Row="6" Grid.Column="2">
+                        <telerik:RadWatermarkTextBox IsReadOnly="True"   Height="25" MinWidth="40" Text="{Binding Text, ElementName=FirstOctet}"  WatermarkContent="000" Padding="5,0,5,2"/>
+                        <Label Content="."/>
+                        <telerik:RadWatermarkTextBox IsReadOnly="True"   Height="25" MinWidth="40" Text="{Binding Text, ElementName=SecondOctet}"  WatermarkContent="000" Padding="5,0,5,2"/>
+                        <Label Content="."/>
+                        <telerik:RadWatermarkTextBox IsReadOnly="True"    Height="25" MinWidth="40" Text="{Binding Text, ElementName=ThirdOctet}"  WatermarkContent="000" Padding="5,0,5,2"/>
+                        <Label Content="."/>
+                        <telerik:RadWatermarkTextBox x:Name="PlcCom1" Height="25" MinWidth="40" Validation.ErrorTemplate="{StaticResource errorTemplate}"
+                                                  MaxLength="3" Padding="5,0,5,2" IsEnabled="{Binding IsEnabled, ElementName=PlcCheckbox}"  >
+                            <telerik:RadWatermarkTextBox.Text>
+                                <Binding Path="PlcCom1"  ValidatesOnDataErrors="True" UpdateSourceTrigger="PropertyChanged">
+                                    <Binding.ValidationRules>
+                                        <utilities:CheckIPOctetsRule />
+                                    </Binding.ValidationRules>
+
+                                </Binding>
+                            </telerik:RadWatermarkTextBox.Text>
+                        </telerik:RadWatermarkTextBox>
+                    </StackPanel>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <telerik:RadButton x:Name="SaveSettings"  Padding="0" Margin="250,20"  HorizontalContentAlignment="Center">Save Settings</telerik:RadButton>
+                </Grid>
+            </Grid>
+        </wizard:WizardPage>
+    </wizard:Wizard>
+
+</Window>

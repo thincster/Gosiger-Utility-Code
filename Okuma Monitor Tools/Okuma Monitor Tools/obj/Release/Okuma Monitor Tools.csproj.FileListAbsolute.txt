@@ -1,0 +1,7 @@
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\obj\Release\Okuma Monitor Tools.csprojAssemblyReference.cache
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\obj\Release\Views\ShellView.g.cs
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\obj\Release\App.g.cs
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\obj\Release\Okuma Monitor Tools_Content.g.cs
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\obj\Release\GeneratedInternalTypeHelper.g.cs
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\obj\Release\Okuma Monitor Tools_MarkupCompile.cache
+D:\Dropbox\2020 Projects\Okuma IO Monitor Code\To C Sharp and MVVM\Okuma Monitor Tools\Okuma Monitor Tools\obj\Release\Okuma Monitor Tools_MarkupCompile.lref
